@@ -53,3 +53,5 @@ log4j2Scan_modify\target\log4j2Scan
 @pmiaowu
 
 @melon
+
+![](https://starchart.cc/r00tSe7en/log4jScan_Modify.svg)
