@@ -1,0 +1,2 @@
+# log4jScan_Modify
+对接JNDIMonitor的Burp Suite被动扫描插件
