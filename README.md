@@ -41,7 +41,7 @@
 ```
 log4j2Scan_modify\target\log4j2Scan
  -/resources/config.yml
- -log4jScan_Modify.jar
+ -log4jScan_modify.jar
 ```
 
 5）开始被动检测即可，可以看到检测日志。
