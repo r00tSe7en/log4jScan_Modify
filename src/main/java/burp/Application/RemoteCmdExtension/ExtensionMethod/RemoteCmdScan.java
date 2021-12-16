@@ -137,7 +137,8 @@ public class RemoteCmdScan extends AAppExtension {
             String[] jsonPayloadList = jsonPayload.split("dnslog-url");
             for (int i = 0; i < jsonPayloadList.length; i++) {
                 if (jsonPayloadList.length != (i + 1)) {
-                    newPayload += jsonPayloadList[i] + (i + 1) + "." + "json" + "." + dnsLogUrl;
+                    //newPayload += jsonPayloadList[i] + (i + 1) + "." + "json" + "." + dnsLogUrl;
+                    newPayload += jsonPayloadList[i] + dnsLogUrl + "/" + "json" + "/" + (i + 1);
                 } else {
                     newPayload += jsonPayloadList[i];
                 }
